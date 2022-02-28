@@ -10,12 +10,15 @@
     inset 5px 5px 20px rgba(255, 255, 255, .2),
     inset -5px -5px 15px rgba(0, 0, 0, .75);
     padding: 10px;
+    position: fixed;
+    top: 0;
 }
 
 .header__ppal{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 5px
 }
 
 .header__search{
@@ -32,12 +35,23 @@
     color: #7d848d;
 }
 
-.header__icono-user{
+.header__cont-iconos{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 3px
+}
+
+.header__iconos{
+    cursor: pointer;
     width: 30px;
 }
 
+.header__icono--bgmenu{
+    width: 25px;
+}
+
 .header__lista{
-    display: flex;
+    display: none;
     color: #fff;
     justify-content: space-evenly;
 }
@@ -66,6 +80,10 @@
 }
 
 @media (min-width: 480px){
+    .header__lista{
+    display: flex;
+    }
+
     .header__icono-user{
         width: 40px;
     }

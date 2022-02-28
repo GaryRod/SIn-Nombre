@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: 100px;
 }
 
 .cont-cards{
@@ -17,19 +18,19 @@
 
 .card{
     margin: auto;
+    padding: 10px;
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
+    border-radius: 5px;
     background-color: #2f363e;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
     10px 10px 70px rgba(0, 0, 0, .25),
     inset 5px 5px 10px rgba(0, 0, 0, .5),
     inset 5px 5px 20px rgba(155, 155, 155, .2),
     inset -5px -5px 15px rgba(0, 0, 0, .75);
-    padding: 10px;
-    width: fit-content;
-    gap: 5px;
-    border-radius: 5px;
 }
 
 .card__cont-img{
@@ -86,6 +87,10 @@
 
 
 @media (min-width: 480px) {
+    .main{
+        margin-top: 75px;
+    }
+
     .card{
     flex-direction: column;
     }

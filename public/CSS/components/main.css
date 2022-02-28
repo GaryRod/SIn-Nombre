@@ -9,5 +9,8 @@
     height: 100vh;
     background-color: #2f363e;
     color: #fff;
-    /* overflow-x: hidden; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
 }
