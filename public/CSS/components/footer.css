@@ -4,12 +4,12 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
+    margin-top: auto;
     background-color: #2f363e;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
     inset 5px 5px 10px rgba(0, 0, 0, .5),
     inset 5px 5px 20px rgba(255, 255, 255, .2),
     inset -5px -5px 15px rgba(0, 0, 0, .75);
-    margin-top: auto;
 }
 
 .footer__button{
@@ -19,29 +19,29 @@
     padding: 5px;
     border-radius: 5px;
     cursor: pointer;
-    background: #176e1c;
-    border: solid .5px rgb(9, 61, 14);
+    background-color: #386599;
 }
 
 .footer__button:hover{
-    background: #0d4210;
+    background-color: #14447c;
 }
 
 .footer__lista{
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
     list-style: none;
     text-align: center;
     gap: 10px;
+    font-size: 12px;
 }
 
 .footer__links{
     color: #fff;
 }
 
+.footer__copy{
+    font-size: 10px;
+}
+
 @media (min-width: 480px){
-    .footer__lista{
-        flex-direction: row;
-    }
 }
