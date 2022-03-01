@@ -1,16 +1,7 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-top: 100px;
-}
-
 .cont-cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 2%;
+    gap: 10px;
     width: 100%;
     padding: 4%;
     justify-content: space-between;
@@ -92,6 +83,6 @@
     }
 
     .card{
-    flex-direction: column;
+        flex-direction: column;
     }
 }

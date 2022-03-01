@@ -3,15 +3,15 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+    padding: 10px;
+    position: fixed;
+    top: 0;
     background-color: #2f363e;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
     10px 10px 70px rgba(0, 0, 0, .25),
     inset 5px 5px 10px rgba(0, 0, 0, .5),
     inset 5px 5px 20px rgba(255, 255, 255, .2),
     inset -5px -5px 15px rgba(0, 0, 0, .75);
-    padding: 10px;
-    position: fixed;
-    top: 0;
 }
 
 .header__ppal{
@@ -23,9 +23,9 @@
 
 .header__search{
     outline: none;
-    border-radius: 5px;
     width: auto;
     padding: 5px;
+    border-radius: 5px;
     color: #fff;
     border: solid 2px #7d848d;
     background: transparent;

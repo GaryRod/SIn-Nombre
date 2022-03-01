@@ -1,28 +1,26 @@
 .footer{
     width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
     background-color: #2f363e;
     box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
     10px 10px 70px rgba(0, 0, 0, .25),
     inset 5px 5px 10px rgba(0, 0, 0, .5),
     inset 5px 5px 20px rgba(255, 255, 255, .2),
     inset -5px -5px 15px rgba(0, 0, 0, .75);
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    /* margin-top: auto; */
-    /* align-self: flex-end; */
-
+    margin-top: auto;
 }
 
 .footer__button{
     width: fit-content;
     text-align: center;
+    align-self: center;
     padding: 5px;
-    background: #176e1c;
     border-radius: 5px;
     cursor: pointer;
-    align-self: center;
+    background: #176e1c;
     border: solid .5px rgb(9, 61, 14);
 }
 
